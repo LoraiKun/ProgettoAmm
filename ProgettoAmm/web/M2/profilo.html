@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sociale retelavoro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lorai-Kun">
+        <meta name="keywords" content="Non troverete mai questa pagina">
+        <link rel="stylesheet" type="text/css" href="Style.css" media="screen">
+    </head>
+    <body>
+        <div id="BarraSupProf">
+            <div>
+                <h1>Nerdbook</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="descrizione.html" target="_blank">Descrizione</a></li>
+                    <li><a href="bacheca.html" target="_blank">Bacheca</a></li>
+                    <li><a href="profilo.html" target="_blank" id="profilo">Profilo</a></li>
+                </ul>
+            </nav>
+            <div id="Logout">
+                        <p id="Emiya">Emiya Shiro</p>
+                        <p id="FalsoLink">Logout</p>
+                    </div>
+        </div>
+         <div id="BarraLaterale">
+                <div id="Persone">
+                    <h1 class="bordiinutili">Persone</h1>
+                    <ul class="bordiinutili">
+                        <li><p>Giacomino</p></li>
+                        <li><p>Saber</p></li>
+                        <li><p>Archer</p></li>
+                    </ul>
+                </div>
+                <div id="Gruppi">
+                    <h1 class="bordiinutili">Gruppi</h1>
+                    <ul class="bordiinutili">
+                        <li><p>Unlimited blade works</p></li>
+                        <li><p>JustisIsBetter</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="BarraCentrale">
+                <img src="../img/shiro.png" alt="Patate e cozze" class="ImmagineProfilo">
+                <form action="servlet.java" method="post">
+                    <div class="FormClass">
+                    <label for="nome">Nome dell'utente</label>
+                    <input type="text" name="nome" id="nome">
+                    </div>
+                    <div class="FormClass">
+                    <label for="cognome">Congome dell'utente</label>
+                    <input type="text" name="cognome" id="cognome">
+                    </div>
+                    <div class="FormClass">
+                    <label for="immagineprofilo">Immagine profilo</label>
+                    <input type="url" name="immagineprofilo" id="immagineprofilo">
+                    </div>
+                    <div class="FormClass">
+                    <label for="presentazione">Presentazione</label>
+                    <textarea name="presentazione" id="presentazione" rows="3" cols="50">Cozze e patate</textarea>
+                    </div>
+                    <div class="FormClass">
+                    <label for="datadinascita">Data di nascita</label>
+                    <input type="date" name="datadinascita" id="datadinascita">
+                    </div>
+                    <div class="FormClass">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    </div>
+                    <div class="FormClass">
+                    <label for="confermapassword">Conferma password</label>
+                    <input type="password" name="confermapassword" id="confermapassword">
+                    </div>
+                    <button type="submit">Invio</button>
+                </form>
+            </div>
+    </body>
+</html>

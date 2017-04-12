@@ -1,0 +1,205 @@
+body{
+    background-color: white;
+    font: 15px "Times New Roman", serif; 
+    color: #000000;
+     
+}
+h1{
+    font-family: "Arial", serif; 
+    color: #000000
+}
+h2{
+    font-family: "Arial", serif;
+    color: #000000
+}
+h3{
+    font-family: "Arial", serif;
+    color: #000000
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+    font: 16px "Times New Roman", serif;
+}
+
+input{
+    color:black;
+    font: 15px "comic sans", serif;
+    width: 5cm;
+    height: 20px;
+}
+
+#BarraSuperiore * {
+    display: inline-block;
+    
+}
+
+#BarraSuperiore{
+    border: 2px #000000 solid;
+    background-color: black;
+}
+div #BarraSuperiore a{
+    background-color: white;
+    
+}
+#BarraSuperiore .bacheca{
+    background-color: brown;
+}
+
+
+#titolo{
+    color: white;
+    
+}
+
+
+
+
+
+div .ImmaginiPostate{
+    height: 500px;
+    width: 300px;
+}
+div .ImmagineProfilo{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-top: 1cm;
+}
+
+#BarraLaterale{
+    float: left;
+   
+}
+div #RobaBacheca{
+    float: left;
+    margin-top: 10px;
+    margin-left: 2cm;
+}
+
+
+#BarraLaterale * p{
+    border:2px solid black;
+}
+#BarraLaterale * h1{
+    border:2px solid black;
+}
+#BarraLaterale * ul{
+    border:1px solid black;
+}
+
+.bordiinutili{
+    margin: 0px;
+}
+
+#FalsoLink{
+    color: red;
+}
+#Emiya{
+    color: white;
+}
+
+#VariBorder{
+    border: 2px solid black;
+   
+}
+
+#post{
+    
+}
+
+.FotTit *{
+    display: inline-block
+        
+}
+.FotTit img{
+    margin-left: 10cm;
+}
+.FotTit h1{
+    margin-left: 2cm;
+}
+
+#UsPs *{
+    display: table;
+    
+}
+#UsPs form{
+    border: 2px black solid;
+    margin-left: 10cm;
+    width: 320px;
+    height: 120px
+}
+#UsPs input{
+    border: 2px black solid;
+    margin-left: 2px;
+}
+#BarraSupProf * {
+    display: inline-block;
+}
+#BarraSupProf {
+    border: 2px black solid;
+    background-color: black;
+}
+#BarraSupProf h1{
+    color: white;
+}
+#BarraSupProf a{
+    background-color: white
+}
+#BarraSupProf #profilo{
+    background-color: brown;
+}
+#BarraCentrale *{
+    margin-bottom: 3px;
+}
+#BarraCentrale{
+    width: 500px;
+    float: left;
+    margin-left:1cm;
+}
+#BarraCentrale input{
+    border: 2px solid black;
+}
+#BarraCentrale textarea{
+    border: 2px solid black;
+}
+#BarraCentrale form div label, #BarraCentrale form div input, #BarraCentrale form div textarea{
+    display: inline-block;
+}
+#BarraCentrale form div label{
+    width: 120px;
+}
+@media only screen and (min-width:1024px){
+ #Logout{
+    
+    margin-left: 5cm;
+}
+    nav ul li a{
+    margin-left:3cm;
+    margin-right: 2cm;
+    border:2px solid black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+}
+@media only screen and (max-width:480px){
+    #BarraSupProf * {
+    display: inline;
+}
+    #BarraSuperiore{
+    display: inline;
+}
+}
+@media only screen and (max-width:1023px) and (min-width:481px){
+    #BarraSupProf * {
+    display: inline;
+    }
+    #BarraSuperiore{
+    display: inline;
+}
+
+#BarraLaterale{
+    display: none;
+}
+
+}
